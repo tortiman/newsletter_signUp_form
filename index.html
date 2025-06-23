@@ -18,6 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <script src="./js/script.js" defer></script>
     <title>
       Frontend Mentor | Newsletter sign-up form with success message
     </title>
@@ -39,14 +40,20 @@
           <li>And much more!</li>
         </ul>
         <div class="email">
-          <span class="email-title">Email address</span>
+          <div class="email-header">
+            <span class="email-title">Email address</span>
+            <span class="email-error">Valid email required</span>
+          </div>
           <input
             type="text"
+            id="emailId"
             class="email-address"
             placeholder="email@company.com"
           />
         </div>
-        <button class="submit">Subscribe to monthly newsletter</button>
+        <button id="submitButton" class="submit">
+          Subscribe to monthly newsletter
+        </button>
       </div>
       <div class="image">
         <img src="./assets/images/illustration-sign-up-desktop.svg" alt="" />

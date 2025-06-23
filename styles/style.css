@@ -97,6 +97,19 @@ body{
     cursor: pointer;
 }
 
+.email-header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.email-error{
+    font-size: 13px;
+    color: var(--RedPrimary);
+    visibility: hidden;
+    opacity: 0;
+}
+
 
 
 .submit{
