@@ -17,6 +17,10 @@ document.addEventListener('DOMContentLoaded',()=>{
             document.querySelector('.email-address').style.color='hsl(0, 0%,58%)';
             document.querySelector('.email-address').style.border='1px solid hsl(0, 0%,58%)';
             document.querySelector('.email-address').style.backgroundColor='white';
+            document.getElementById('formId').style.visibility='hidden';
+            document.getElementById('formId').style.opacity=0;
+            document.getElementById('successId').style.opacity=1;
+            document.getElementById('successId').style.visibility='visible';
         }else{
             document.querySelector('.email-error').style.opacity=1;
             document.querySelector('.email-error').style.visibility='visible';

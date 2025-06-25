@@ -28,7 +28,7 @@
   <body>
     <!-- Sign-up form start -->
 
-    <article class="form">
+    <article id="formId" class="form">
       <div class="form-text">
         <span class="title">Stay updated!</span>
         <span class="join"
@@ -45,7 +45,7 @@
             <span class="email-error">Valid email required</span>
           </div>
           <input
-            type="text"
+            type="email"
             id="emailId"
             class="email-address"
             placeholder="email@company.com"
@@ -55,11 +55,27 @@
           Subscribe to monthly newsletter
         </button>
       </div>
-      <div class="image">
-        <img src="./assets/images/illustration-sign-up-desktop.svg" alt="" />
+      <div class="container-image">
+        <img
+          src="./assets/images/illustration-sign-up-desktop.svg"
+          alt=""
+          class="image"
+        />
       </div>
     </article>
 
+    <article id="successId" class="success">
+      <div class="container-success">
+        <img src="./assets/images/icon-list.svg" alt="" class="image-success" />
+        <p class="thanks">Thanks for subscribing!</p>
+        <p class="confirmation">
+          A confirmation email has been sent to
+          <span id="email-success"></span>.Please open it and click the button
+          inside to confirm your subscription.
+        </p>
+        <button class="dismiss">Dismiss message</button>
+      </div>
+    </article>
     <!--  
           -->
 
@@ -67,9 +83,7 @@
 
     <!-- Success message start -->
 
-    <!-- Thanks for subscribing! A confirmation email has been sent to
-    ash@loremcompany.com. Please open it and click the button inside to confirm
-    your subscription. Dismiss message -->
+    <!--     -->
 
     <!-- Success message end -->
   </body>
