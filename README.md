@@ -6,6 +6,7 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Problems](#Problems)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -26,6 +27,10 @@ Users should be able to:
   - The email address is not formatted correctly
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
+
+### Problems
+
+I have problems with paths in github, the images in content: url() don't show in github.
 
 ### Screenshot
 
