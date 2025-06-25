@@ -64,7 +64,7 @@ body{
     padding: 0;
     width: 100%;
     margin-left: 30px;
-    list-style: url(/assets/images/icon-list.svg);
+    list-style: url(../assets/images/icon-list.svg);
     font-size: 16px;
 
 }
